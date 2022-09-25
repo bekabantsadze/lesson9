@@ -1,0 +1,52 @@
+.header-div{
+    background-image: url(../assets/header\ pic.jpg);
+    height: 324px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+.containter{
+    max-width: 1088px;
+    width: 80%;
+    margin: 0 auto;
+    color: #fff;
+    font-family: "poppins";
+    
+}
+.d-flex{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    margin-bottom: 96px;
+}
+.nav-ul{
+    display: flex;
+}
+li a {
+    color: #fff;
+    display: flex;
+    padding-right: 46px;
+
+}
+.logo{
+    color: #fff;
+}
+.contact-p{
+    font-size: 42px;
+    font-family:"poppins";
+    font-weight:800 ;
+    
+}
+.burgerbar{
+    display: none;
+    
+}
+.contact-p1{
+   display: inline-block;
+   vertical-align: top;
+   padding-top: 14px;
+   font-family: "poppins";
+   font-size: 14px;
+   margin-right: 16.5px;
+}
+

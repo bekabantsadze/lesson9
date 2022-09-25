@@ -1,0 +1,9 @@
+@media (max-width: 768px){
+    .burgerbar{
+        display: block;
+        color: blueviolet;
+    }
+    .navigation{
+        display: none;
+    }
+}
