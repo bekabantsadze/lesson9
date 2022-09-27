@@ -49,4 +49,25 @@ li a {
    font-size: 14px;
    margin-right: 16.5px;
 }
+.map-section{
+    margin: 0 auto;
+    max-width: 1088px;
+    width: 100%;
+    height: 286px;
+    padding-top: 50px;
+    
+}
+.contact-box{
+    margin: 0 auto;
+    padding-top: 56px;
+}
+.contact-h{
+  color:#5863F8 ;  
+}
+
+.contact-p{
+    max-width: 378px;
+    height: 115px;
+    font-weight: 40px;
+}
 
