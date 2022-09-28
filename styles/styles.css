@@ -111,12 +111,11 @@ li a {
     height: 147px;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items:center;
     margin-top: 338px;
 }
 .email{
     max-width: 291px;
-    width: 100%;
     height: 144px;
 }
 .info-p{
@@ -138,10 +137,17 @@ li a {
 .icon-div{
     background-color: #5863F8;
     max-width: 58px;
-    width: 100%;
     height: 58px;
     border-radius: 50%;
+    display: flex;
+    justify-content: center;
 }
-
+.icon{
+    max-width: 18px;
+    width: 100%;
+    height: 18px;
+    display: flex;
+    align-self: center;
+}
 
 
