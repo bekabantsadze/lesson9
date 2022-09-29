@@ -4,6 +4,7 @@
     width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
+    white-space: nowrap;
     }
 .containter{
     max-width: 1088px;
@@ -83,6 +84,8 @@ li a {
 .description{
     color: #CECECE;
     border-color: #E8E8E8;
+    max-width: 720px;
+    height: 288px;
     
 }
 .label-box{
@@ -98,6 +101,7 @@ li a {
     background-color: #5863F8;
     width: 352px;
     height: 60px;
+    border: none;
 }
 .input{
     width: 352px;
@@ -151,8 +155,8 @@ li a {
     align-self: center;
 }
 .image-section{
-    max-width: 1366px;
-    width: 100%;
+    
+    width: 1367;
     height: 537px;
 }
 .image-h{
@@ -202,7 +206,7 @@ li a {
     font-weight: 200px;
     color: #F8F8F8;
 }
-.useful-nav{
+.useful-ul{
     color: #5863F8;
     font-family: "poppins";
     font-size: 14px;
@@ -214,7 +218,11 @@ li a {
     font-weight: 200px;
     color: #F8F8F8;
 }
-
+.image1{
+    display: flex;
+    justify-content: flex-start;
+    
+}
 
 
 
