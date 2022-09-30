@@ -35,7 +35,7 @@ li a {
 .contact-p{
     font-size: 42px;
     font-family:"poppins";
-    font-weight:800 ;
+    font-weight: 800 ;
     
 }
 .burgerbar{
@@ -107,6 +107,7 @@ textarea: focus,
     font-family: "poppins";
     font-weight: 400;
     margin-top: 56px;
+    white-space: nowrap;
 }
 .container-p{
     font-size: 42px;
@@ -133,11 +134,12 @@ textarea: focus,
     justify-content: center;
     align-items: center;
 }
-.email-li{
-    color: #CECECE;
+.email-li a{
+    color:#CECECE;
     font-family: "Poppins";
     font-size: 14px;
     text-align: center;
+    
 }
 .container-contact-info{
     display: flex;
@@ -145,29 +147,122 @@ textarea: focus,
     margin-top: 50px;
 
 }
-.photos-h{
-    max-width: 58px;
-    width: 80%;
-    color: #5863F8;
-    display: flex;
-    justify-content: flex-start;
-    margin-top: 90px;
-}
-.photos-p{
-    font-size: 42px;
-    font-weight: 800;
-    font-family: "poppins";
-    height: 115px;
+.call-phone{
+    color: #CECECE;
+    font-family: "Poppins";
+    font-size: 14px;
+    text-align: center;
     white-space: nowrap;
 }
-.photos-text-wraper{
-    max-width: 300px;
+.location-ul{
+    color: #CECECE;
+    font-family: "Poppins";
+    font-size: 14px;
+    text-align: center;
+    white-space: nowrap;
+}
+.photos-text{
+    width: 80%;
+    margin: 0 auto;
+}
+.photos-h{
+    color: #5863F8;
+    font-family: "poppins";
+    font-size: 14px;
+    font-weight: 800;
+    margin-top: 90px;
+    white-space: nowrap;
+}
+.photos-p{
+    max-width: 565px;
     width: 100%;
-    height: 135px;
+    font-size: 41px;
+    font-family: "poppins";
+    font-weight: 800;
+    white-space: nowrap;
 }
 .image-container{
     display: flex;
     justify-content: space-between;
+    margin-top: 60px;
+}
+.footer{
+    
     width: 100%;
-    marg
+    height: 395px;
+    background-color: #121212;
+    padding: 90px 0 40px 139px; 
+}
+.zetta-info{
+    max-width: 280px;
+    width:  100%;
+    height: 191px;
+}
+.zetta-info-h{
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    font-family: "poppins";
+    font-size: 24px;
+    white-space: nowrap;
+
+}
+.zetta-info-p{
+    max-width: 260px;
+    color:#CECECE;
+    font-family: "poppins";
+    font-size: 14px;
+
+}
+
+.useful-h{
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    font-family: "poppins";
+    font-size: 24px;
+    white-space: nowrap;
+
+
+}
+.useful-li{
+    color: #5863F8;
+    font-family: "poppins";
+    font-size: 14px;
+    padding-bottom: 10px;
+
+}
+.privacy-h{
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    font-family: "poppins";
+    font-size: 24px;
+    white-space: nowrap;
+
+}
+.privacy-li{
+    color: #5863F8;
+    font-family: "poppins";
+    font-size: 14px;
+    padding-bottom: 10px;
+}
+.contact-h{
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    font-family: "poppins";
+    font-size: 24px;
+    white-space: nowrap;
+
+}
+
+.contact-li{
+    padding-bottom: 10px;
+}
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    
+    
 }

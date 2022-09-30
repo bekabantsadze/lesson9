@@ -17,3 +17,9 @@
     }
 
 }
+@media (max-width: 1024px){
+    .photos-container{
+        flex-direction: column;
+        max-width: 100%;
+    }
+}
